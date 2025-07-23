@@ -16,8 +16,8 @@
   "dependencies": {
     "@galaxy/theme-default": "workspace:^",
     "@vue/repl": "^4.6.2",
+    "@vueuse/core": "^13.5.0",
     "galaxy-ui": "workspace:^",
-    "markdown-it-async": "^2.2.0",
     "markdown-it-container": "^4.0.0",
     "markdown-it-task-lists": "^2.1.1",
     "sass-embedded": "^1.89.2",
@@ -25,7 +25,6 @@
     "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@types/markdown-it-container": "^2.0.10",
-    "markdown-it-async": "^2.2.0"
+    "@types/markdown-it-container": "^2.0.10"
   }
 }

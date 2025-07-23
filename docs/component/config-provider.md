@@ -7,9 +7,13 @@ description: 全局 UI 配置
 
 全局 UI 配置。
 
+::: demo
+
 ```vue
 <!--@include: ../example/g-config-provider/usage.vue-->
 ```
+
+:::
 
 ## API
 

@@ -77,10 +77,24 @@ function extendConfig(
 }
 
 function createConfig(init?: ConfigInit): ConfigContext {
-  const defaults = {
+  const defaults: ConfigContext = {
     namespace: 'g',
     size: '',
   }
 
-  return init ? Object.assign(defaults, init) : defaults
+  return mergeConfig(defaults, init)
+}
+
+function mergeConfig(target: ConfigContext, source?: ConfigInit) {
+  if (!source) return target
+
+  Object.keys(source).forEach((key) => {
+    const value = source[key as keyof ConfigInit]
+
+    if (value === undefined || value === null) return
+
+    target[key as keyof ConfigContext] = value
+  })
+
+  return target
 }

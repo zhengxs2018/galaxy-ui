@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
+// 解决沙箱环境下，无法加载本地组件样式的问题
 import styles from '@galaxy/theme-default/dist/index.css?raw'
-// 为了解决沙箱环境下，无法加载本地样式的问题
 import { File, mergeImportMap, useStore, useVueImportMap } from '@vue/repl'
 import { withBase } from 'vitepress'
 import { computed, ref } from 'vue'
@@ -11,7 +11,7 @@ const GALAXY_UI_PUBLIC_PATH = withBase(
   `/${import.meta.env.VITE_GALAXY_UI_PATH}/dist/index.js`,
 )
 
-function useImportMap() {
+export function useImportMap() {
   const {
     importMap: builtinImportMap,
     vueVersion,
@@ -35,10 +35,21 @@ function useImportMap() {
   }
 }
 
+export function useGalaxyFiles() {
+  const files: File[] = [new File('src/galaxy-ui.css', styles, true)]
+
+  return files.reduce(
+    (acc, file) => {
+      acc[file.filename] = file
+      return acc
+    },
+    {} as Record<string, File>,
+  )
+}
+
 export function useReplStore(initial?: string) {
   const { importMap, vueVersion } = useImportMap()
-
-  const styleFile = new File('src/style.css', styles, true)
+  const galaxyFiles = useGalaxyFiles()
 
   return useStore(
     {
@@ -52,9 +63,7 @@ export function useReplStore(initial?: string) {
           propsDestructure: true,
         },
       }),
-      files: ref({
-        [styleFile.filename]: new File('src/style.css', styles, true),
-      }),
+      files: ref(galaxyFiles),
     },
     initial,
   )

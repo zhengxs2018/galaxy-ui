@@ -4,7 +4,7 @@
 
 > **default**: `object`
 
-定义于: [index.ts:10](https://github.com/zhengxs2018/galaxy-vue/blob/18351a97cf2fa884bcabac6a998436dfdeb4a603/packages/galaxy-ui/src/index.ts#L10)
+定义于: [index.ts:10](https://github.com/zhengxs2018/galaxy-vue/blob/8e5a3fb68b3f76d6c1ebad5eeee34606ff2e7045/packages/galaxy-ui/src/index.ts#L10)
 
 ## 类型声明
 

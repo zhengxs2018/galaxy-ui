@@ -2,6 +2,7 @@ import lists from 'markdown-it-task-lists'
 import { defineConfig } from 'vitepress'
 
 import typedocSidebar from '../reference/typedoc-sidebar.json'
+import { createDemo } from './plugins/markdown/containers.js'
 
 export default defineConfig({
   base: '/docs/',
@@ -17,7 +18,7 @@ export default defineConfig({
     },
     nav: [
       { text: '指南', link: '/guide/introduction', activeMatch: '/guide/' },
-      { text: '组件', link: '/component/overview', activeMatch: '/component/' },
+      { text: '组件', link: '/component/button', activeMatch: '/component/' },
       { text: '演练场', link: '/playground' },
       { text: '参考', link: '/reference/', activeMatch: '/reference/' },
     ],
@@ -47,6 +48,7 @@ export default defineConfig({
   markdown: {
     preConfig(md) {
       md.use(lists)
+      md.use(...createDemo())
     },
   },
 })

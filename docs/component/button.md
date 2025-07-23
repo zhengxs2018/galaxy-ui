@@ -7,9 +7,13 @@ description: 按钮
 
 按钮组件
 
+::: demo
+
 ```vue
 <!--@include: ../example/g-button/usage.vue-->
 ```
+
+:::
 
 ## API
 
