@@ -2,7 +2,7 @@
 
 # 接口: SizeContext
 
-定义于: [composables/use-size.ts:23](https://github.com/zhengxs2018/galaxy-vue/blob/8e5a3fb68b3f76d6c1ebad5eeee34606ff2e7045/packages/galaxy-ui/src/composables/use-size.ts#L23)
+定义于: [composables/use-size.ts:23](https://github.com/zhengxs2018/galaxy-vue/blob/e67881df0290492498b823acdc47b0e998577a46/packages/galaxy-ui/src/composables/use-size.ts#L23)
 
 ## 属性
 
@@ -10,4 +10,4 @@
 
 > `optional` **size**: `MaybeRef`\<`undefined` \| [`ComponentSize`](../type-aliases/ComponentSize.md)\>
 
-定义于: [composables/use-size.ts:24](https://github.com/zhengxs2018/galaxy-vue/blob/8e5a3fb68b3f76d6c1ebad5eeee34606ff2e7045/packages/galaxy-ui/src/composables/use-size.ts#L24)
+定义于: [composables/use-size.ts:24](https://github.com/zhengxs2018/galaxy-vue/blob/e67881df0290492498b823acdc47b0e998577a46/packages/galaxy-ui/src/composables/use-size.ts#L24)

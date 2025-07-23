@@ -4,7 +4,7 @@
 
 > **useNamespace**(`name`): `object`
 
-定义于: [composables/use-namespace.ts:20](https://github.com/zhengxs2018/galaxy-vue/blob/8e5a3fb68b3f76d6c1ebad5eeee34606ff2e7045/packages/galaxy-ui/src/composables/use-namespace.ts#L20)
+定义于: [composables/use-namespace.ts:20](https://github.com/zhengxs2018/galaxy-vue/blob/e67881df0290492498b823acdc47b0e998577a46/packages/galaxy-ui/src/composables/use-namespace.ts#L20)
 
 A composable to generate BEM class names for components.
 It uses the namespace provided by the app configuration.

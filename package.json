@@ -1,11 +1,11 @@
 {
-  "name": "galaxy-vue",
+  "name": "galaxy-ui",
   "private": true,
   "type": "module",
   "version": "0.1.0",
   "description": "",
   "author": "zhengxs2018",
-  "repository": "zhengxs2018/galaxy-vue",
+  "repository": "zhengxs2018/galaxy-ui",
   "license": "SEE LICENSE IN LICENSE FILE",
   "engines": {
     "node": ">=22.12.0",
