@@ -1,0 +1,40 @@
+{
+  "name": "galaxy-ui",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Galaxy UI 是一个为构建注重性能和易用性的现代网页应用而设计的 Vue 3 组件库",
+  "author": "zhengxs2018",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "main": "./dist/index.js",
+  "types": "./dist-types/index.d.ts",
+  "files": [
+    "dist",
+    "dist-types",
+    "theme.scss",
+    "index.scss"
+  ],
+  "sideEffects": [
+    "**/*.scss"
+  ],
+  "scripts": {
+    "ready": "vite build --mode=development",
+    "build": "vite build",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier . --write --log-level warn --ignore-path ../../.prettierignore",
+    "clean": "pnpm clean:bundle && pnpm clean:node_modules",
+    "clean:bundle": "rimraf dist package",
+    "clean:node_modules": "rimraf node_modules",
+    "prepublishOnly": "pnpm lint && pnpm clean:bundle && pnpm build"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "@galaxy/theme-default": "workspace:^"
+  },
+  "devDependencies": {
+    "@galaxy/tsconfig": "workspace:^",
+    "vue": "^3.5.17"
+  }
+}

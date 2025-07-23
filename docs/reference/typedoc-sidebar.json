@@ -1,0 +1,82 @@
+[
+  {
+    "text": "接口",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "ConfigContext",
+        "link": "/reference/interfaces/ConfigContext.md"
+      },
+      { "text": "SizeContext", "link": "/reference/interfaces/SizeContext.md" }
+    ]
+  },
+  {
+    "text": "类型别名",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "ButtonEmits",
+        "link": "/reference/type-aliases/ButtonEmits.md"
+      },
+      {
+        "text": "ButtonNativeType",
+        "link": "/reference/type-aliases/ButtonNativeType.md"
+      },
+      {
+        "text": "ButtonProps",
+        "link": "/reference/type-aliases/ButtonProps.md"
+      },
+      { "text": "ButtonType", "link": "/reference/type-aliases/ButtonType.md" },
+      {
+        "text": "ButtonVariantType",
+        "link": "/reference/type-aliases/ButtonVariantType.md"
+      },
+      {
+        "text": "ComponentSize",
+        "link": "/reference/type-aliases/ComponentSize.md"
+      }
+    ]
+  },
+  {
+    "text": "变量",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "BUTTON_NATIVE_TYPES",
+        "link": "/reference/variables/BUTTON_NATIVE_TYPES.md"
+      },
+      {
+        "text": "BUTTON_TYPES",
+        "link": "/reference/variables/BUTTON_TYPES.md"
+      },
+      {
+        "text": "BUTTON_VARIANT_TYPES",
+        "link": "/reference/variables/BUTTON_VARIANT_TYPES.md"
+      },
+      { "text": "buttonEmits", "link": "/reference/variables/buttonEmits.md" },
+      { "text": "buttonProps", "link": "/reference/variables/buttonProps.md" },
+      {
+        "text": "COMPONENT_SIZE",
+        "link": "/reference/variables/COMPONENT_SIZE.md"
+      },
+      { "text": "default", "link": "/reference/variables/default.md" },
+      {
+        "text": "GConfigProvider",
+        "link": "/reference/variables/GConfigProvider.md"
+      },
+      { "text": "version", "link": "/reference/variables/version.md" }
+    ]
+  },
+  {
+    "text": "函数",
+    "collapsed": false,
+    "items": [
+      { "text": "useConfig", "link": "/reference/functions/useConfig.md" },
+      {
+        "text": "useNamespace",
+        "link": "/reference/functions/useNamespace.md"
+      },
+      { "text": "useSize", "link": "/reference/functions/useSize.md" }
+    ]
+  }
+]

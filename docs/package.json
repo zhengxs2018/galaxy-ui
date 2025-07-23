@@ -1,0 +1,31 @@
+{
+  "name": "docs",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier . --write --log-level warn --ignore-path ../.prettierignore",
+    "clean": "pnpm clean:bundle && pnpm clean:node_modules",
+    "clean:bundle": "rimraf .vitepress/dist .vitepress/cache",
+    "clean:node_modules": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@galaxy/theme-default": "workspace:^",
+    "@vue/repl": "^4.6.2",
+    "galaxy-ui": "workspace:^",
+    "markdown-it-async": "^2.2.0",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "sass-embedded": "^1.89.2",
+    "vitepress": "^2.0.0-alpha.8",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@types/markdown-it-container": "^2.0.10",
+    "markdown-it-async": "^2.2.0"
+  }
+}

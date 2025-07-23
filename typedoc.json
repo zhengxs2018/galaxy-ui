@@ -1,0 +1,22 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Reference",
+  "readme": "none",
+  "entryPoints": [
+    "packages/galaxy-ui"
+  ],
+  "sidebar": {
+    "collapsed": false
+  },
+  "docsRoot": "./docs/",
+  "out": "docs/reference",
+  "lang": "zh",
+  "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
+  "entryPointStrategy": "packages",
+  "includeVersion": false,
+  "excludeInternal": true,
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "hideGenerator": true,
+  "cleanOutputDir": true
+}

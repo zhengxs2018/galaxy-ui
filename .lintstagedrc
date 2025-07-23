@@ -1,0 +1,12 @@
+{
+  "*.{ts,tsx,vue}": [
+    "prettier --check",
+    "eslint --fix --flag v10_config_lookup_from_file"
+  ],
+  "*.js": [
+    "prettier --check"
+  ],
+  "*.md": [
+    "prettier --check"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "galaxy-vue",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "",
+  "author": "zhengxs2018",
+  "repository": "zhengxs2018/galaxy-vue",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "engines": {
+    "node": ">=22.12.0",
+    "pnpm": ">=10.13.1"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@vue/composition-api"
+      ]
+    }
+  },
+  "scripts": {
+    "prepare": "pnpm simple-git-hooks",
+    "format": "turbo format --continue -- --cache --cache-location node_modules/.cache/.prettiercache",
+    "test": "vitest",
+    "test:cov": "vitest run --coverage",
+    "cz": "git-cz",
+    "docs:dev": "typedoc && turbo ready && turbo watch dev",
+    "docs:build": "typedoc && pnpm -F docs build",
+    "clean": "pnpm clean:bundle && pnpm clean:turbo && pnpm clean:node_modules",
+    "clean:bundle": "turbo clean:bundle",
+    "clean:node_modules": "turbo clean:node_modules && rimraf pnpm-lock.yaml node_modules",
+    "clean:turbo": "rimraf .turbo"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged",
+    "commit-msg": "pnpm commitlint --edit ${1}"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.17.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/cz-commitlint": "^19.8.1",
+    "@eslint/js": "^9.31.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^22.12.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue-jsx": "^5.0.1",
+    "@vitest/ui": "^3.2.4",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog-emoji": "^0.1.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.3.0",
+    "globals": "^16.3.0",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "simple-git-hooks": "^2.13.0",
+    "tsx": "^4.20.3",
+    "turbo": "^2.5.5",
+    "typedoc": "^0.28.7",
+    "typedoc-plugin-markdown": "^4.7.1",
+    "typedoc-vitepress-theme": "^1.1.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "vite": "^7.0.5",
+    "vite-plugin-checker": "^0.10.1",
+    "vite-plugin-dts": "^4.5.4",
+    "vite-plugin-externalize-deps": "^0.9.0",
+    "vite-plugin-static-copy": "^3.1.1",
+    "vite-plugin-static-copy-modules": "^1.0.3",
+    "vitest": "^3.2.4",
+    "vue-eslint-parser": "^10.2.0",
+    "vue-tsc": "^3.0.3"
+  }
+}

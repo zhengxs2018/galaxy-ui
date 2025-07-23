@@ -1,0 +1,59 @@
+@use '../theme/var.scss' as *;
+
+$g-button-disabled-color: #aaa;
+$g-button-disabled-background-color: #f5f5f5;
+$g-button-disabled-border-color: #ddd;
+
+//  默认
+$g-button-default-color: #666;
+$g-button-default-background-color: #fff;
+$g-button-default-border-color: #ddd;
+$g-button-default-hover-color: $g-color-6c;
+$g-button-default-hover-background-color: $g-color-1c;
+$g-button-default-hover-border-color: $g-color-4c;
+
+//  主
+$g-button-primary-color: #fff;
+$g-button-primary-background-color: $g-color-6c;
+$g-button-primary-border-color: $g-color-6c;
+$g-button-primary-hover-color: #fff;
+$g-button-primary-hover-background-color: $g-color-5c;
+$g-button-primary-hover-border-color: $g-color-5c;
+$g-button-primary-plain-color: $g-color-6c;
+$g-button-primary-plain-background-color: #fff;
+$g-button-primary-plain-border-color: $g-color-4c;
+$g-button-primary-plain-hover-background-color: $g-color-1c;
+$g-button-primary-plain-hover-border-color: $g-color-5c;
+
+// text
+$g-button-link-color: $g-color-6c;
+$g-button-link-hover-color: $g-color-5c;
+$g-button-link-bg-color: $g-color-6c;
+$g-button-link-bg-border-color: $g-color-6c;
+$g-button-link-bg-hover-color: #fff;
+$g-button-link-bg-hover-background-color: $g-color-5c;
+$g-button-link-bg-hover-border-color: $g-color-5c;
+$g-button-link-bg-danger-color: $g-color-6c;
+
+$g-button-link-bg-danger-hover-color: #fff;
+$g-button-link-bg-danger-hover-background-color: #f12933;
+$g-button-link-bg-danger-hover-border-color: #f12933;
+
+// 不同尺寸
+$g-button-large-danger-color: $g-color-6c;
+$g-button-large-danger-border-color: #c3e5fd;
+$g-button-large-danger-hover-color: #f12933;
+
+// 间距
+$g-button-small-padding: $g-spacing-1 $g-spacing-2;
+$g-button-padding: $g-spacing-2 $g-spacing-3;
+$g-button-medium-padding: $g-spacing-3 $g-spacing-4;
+$g-button-large-padding: $g-spacing-4 $g-spacing-5;
+
+// 字体大小
+$g-button-font: $g-font-2;
+$g-button-icon-font: $g-font-2;
+$g-button-large-font: $g-font-3;
+$g-button-medium-font: $g-font-2;
+$g-button-small-font: $g-font-2;
+$g-button-small-i-font: $g-font-2;

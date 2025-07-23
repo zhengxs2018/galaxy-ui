@@ -1,0 +1,6 @@
+**/dist/
+**/dist-types/
+**/temp/
+**/package/
+**/cache/
+**/*.d.ts

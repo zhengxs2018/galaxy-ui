@@ -1,0 +1,220 @@
+////
+/// Sass 主题变量
+/// @group API
+
+// ----------- 品牌色 ----------- //
+$g-primary-color: #1e88e5 !default;
+$g-secondary-color: #29b6f6 !default;
+
+// ----------- 情境色 ----------- //
+$g-success-color: #52c41a !default;
+$g-warning-color: #ff9900 !default;
+$g-error-color: #f12933 !default;
+
+// ----------- 文字颜色 ----------- //
+$g-text-primary-color: #333 !default;
+$g-text-secondary-color: #666 !default;
+$g-text-hint-color: #999 !default;
+
+// ----------- 背景色 ----------- //
+$g-background-color: #f8f8f8 !default;
+$g-background-blue-color: #f0f5fb !default;
+
+// ----------- 填充色 ----------- //
+$g-fill-color: $g-background-blue-color !default;
+$g-disabled-fill-color: $g-background-color !default;
+
+// ----------- 组件 ----------- //
+$g-select-hover: #c3e5fd !default;
+$g-hover-color: #e2efff !default;
+
+$g-border-color: #ddd !default;
+$g-divider-color: #eee !default;
+
+/// =====================
+///       颜色
+/// =====================
+
+/// 颜色-1
+///
+/// @group a-color
+/// @type Color
+/// #e6f3ff !default;
+$g-color-1: 230, 243, 255 !default;
+$g-color-1c: #e6f3ff !default;
+
+/// 颜色-2
+///
+/// @group a-color
+/// @type Color
+/// #b8ddff !default;
+$g-color-2: 184, 221, 255 !default;
+$g-color-2c: #b8ddff !default;
+
+/// 颜色-3
+///
+/// @group a-color
+/// @type Color
+/// #8fc9ff !default;
+$g-color-3: 143, 201, 255 !default;
+$g-color-3c: #8fc9ff !default;
+
+/// 颜色-4
+///
+/// @group a-color
+/// @type Color
+/// #66b5ff !default;
+$g-color-4: 102, 181, 255 !default;
+$g-color-4c: #66b5ff !default;
+
+/// 颜色-5
+///
+/// @group a-color
+/// @type Color
+/// #3da0fc !default;
+$g-color-5: 61, 160, 252 !default;
+$g-color-5c: #3da0fc !default;
+
+/// 颜色-6
+///
+/// @group a-color
+/// @type Color
+/// #1385f0 !default;
+$g-color-6: 19, 133, 240 !default;
+$g-color-6c: #1385f0 !default;
+
+/// 颜色-7
+///
+/// @group a-color
+/// @type Color
+/// #0664c9 !default;
+$g-color-7: 6, 100, 201 !default;
+$g-color-7c: #0664c9 !default;
+
+/// 颜色-8
+///
+/// @group a-color
+/// @type Color
+/// #0049a3 !default;
+$g-color-8: 0, 73, 163 !default;
+$g-color-8c: #0049a3 !default;
+
+/// 颜色-9
+///
+/// @group a-color
+/// @type Color
+/// #00347d !default;
+$g-color-9: 0, 52, 125 !default;
+$g-color-9c: #00347d !default;
+
+/// 颜色-10
+///
+/// @group a-color
+/// @type Color
+/// #002157 !default;
+$g-color-10: 0, 33, 87 !default;
+$g-color-10c: #002157 !default;
+
+/// =====================
+///       字号
+/// =====================
+
+/// 字号-1
+///
+/// @group b-font
+/// @type FontSize
+$g-font-1: 12px !default;
+
+/// 字号-2
+///
+/// @group b-font
+/// @type FontSize
+$g-font-2: 14px !default;
+
+/// 字号-3
+///
+/// @group b-font
+/// @type FontSize
+$g-font-3: 16px !default;
+
+/// 字号-4
+///
+/// @group b-font
+/// @type FontSize
+$g-font-4: 18px !default;
+
+/// 字号-5
+///
+/// @group b-font
+/// @type FontSize
+$g-font-5: 20px !default;
+
+/// 字号-6
+///
+/// @group b-font
+/// @type FontSize
+$g-font-6: 22px !default;
+
+/// 字号-7
+///
+/// @group b-font
+/// @type FontSize
+$g-font-7: 24px !default;
+
+/// =====================
+///       间距
+/// =====================
+
+/// 间距-1
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-1: 2px !default;
+
+/// 间距-2
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-2: 4px !default;
+
+/// 间距-3
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-3: 8px !default;
+
+/// 间距-4
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-4: 12px !default;
+
+/// 间距-5
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-5: 16px !default;
+
+/// 间距-6
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-6: 20px !default;
+
+/// 间距-7
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-7: 24px !default;
+
+/// 间距-8
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-8: 28px !default;
+
+/// 间距-9
+///
+/// @group c-spacing
+/// @type Size
+$g-spacing-9: 32px !default;
