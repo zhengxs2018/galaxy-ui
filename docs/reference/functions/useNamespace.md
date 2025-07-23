@@ -4,7 +4,7 @@
 
 > **useNamespace**(`name`): `object`
 
-定义于: galaxy-ui/src/composables/use-namespace.ts:20
+定义于: [composables/use-namespace.ts:20](https://github.com/zhengxs2018/galaxy-vue/blob/18351a97cf2fa884bcabac6a998436dfdeb4a603/packages/galaxy-ui/src/composables/use-namespace.ts#L20)
 
 A composable to generate BEM class names for components.
 It uses the namespace provided by the app configuration.
@@ -172,9 +172,9 @@ The generated element class name.
 ## 示例
 
 ```ts
-const ns = useNamespace('button')
+const ns = useNamespace('button');
 
-ns.b() // 'galaxy-ui-button'
-ns.e('icon') // 'galaxy-ui-button__icon'
-ns.m('primary') // 'galaxy-ui-button--primary'
+ns.b(); // 'galaxy-ui-button'
+ns.e('icon'); // 'galaxy-ui-button__icon'
+ns.m('primary'); // 'galaxy-ui-button--primary'
 ```

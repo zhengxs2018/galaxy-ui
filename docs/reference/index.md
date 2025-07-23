@@ -16,12 +16,12 @@
 
 ## 变量
 
-- [BUTTON_NATIVE_TYPES](variables/BUTTON_NATIVE_TYPES.md)
-- [BUTTON_TYPES](variables/BUTTON_TYPES.md)
-- [BUTTON_VARIANT_TYPES](variables/BUTTON_VARIANT_TYPES.md)
+- [BUTTON\_NATIVE\_TYPES](variables/BUTTON_NATIVE_TYPES.md)
+- [BUTTON\_TYPES](variables/BUTTON_TYPES.md)
+- [BUTTON\_VARIANT\_TYPES](variables/BUTTON_VARIANT_TYPES.md)
 - [buttonEmits](variables/buttonEmits.md)
 - [buttonProps](variables/buttonProps.md)
-- [COMPONENT_SIZE](variables/COMPONENT_SIZE.md)
+- [COMPONENT\_SIZE](variables/COMPONENT_SIZE.md)
 - [default](variables/default.md)
 - [GConfigProvider](variables/GConfigProvider.md)
 - [version](variables/version.md)

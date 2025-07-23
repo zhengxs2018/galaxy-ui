@@ -3,4 +3,5 @@
 **/temp/
 **/package/
 **/cache/
+**/reference/
 **/*.d.ts

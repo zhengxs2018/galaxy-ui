@@ -4,7 +4,7 @@
 
 > **useConfig**(`init?`): [`ConfigContext`](../interfaces/ConfigContext.md)
 
-定义于: galaxy-ui/src/composables/use-config.ts:33
+定义于: [composables/use-config.ts:33](https://github.com/zhengxs2018/galaxy-vue/blob/18351a97cf2fa884bcabac6a998436dfdeb4a603/packages/galaxy-ui/src/composables/use-config.ts#L33)
 
 A composable function to access the configuration of the Galaxy UI components.
 
