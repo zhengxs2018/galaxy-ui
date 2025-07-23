@@ -1,9 +1,0 @@
-{
-  "files.associations": {
-    "typedoc.json": "jsonc"
-  },
-  "search.useIgnoreFiles": true,
-  "search.exclude": {
-    "archives": true
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "$schema": "https://typedoc.org/schema.json",
-  "extends": ["../../common/profiles/typedoc.json"],
-  "name": "Galaxy UI",
-  "readme": "none",
-  "entryPoints": ["src/index.ts"]
-}

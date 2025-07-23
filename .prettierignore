@@ -1,7 +1,0 @@
-**/dist/
-**/dist-types/
-**/temp/
-**/package/
-**/cache/
-**/reference/
-**/*.d.ts
